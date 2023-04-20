@@ -1,6 +1,14 @@
 import wget
 
-url = '文件的位置'
+# 下载文件到本地
+url = 'https://raw.githubusercontent.com/wangyifan349/cv2/main/orb_bf_match.py'#一个简单的匹配方法在我的github开放仓库
 filename = wget.download(url)
-from <filename> import <function-or-class>
-#import  某个配模块
+
+# 导入函数
+from orb_bf_match import orb_bf_match
+
+# 调用函数
+img1 = cv2.imread('image1.png')
+img2 = cv2.imread('image2.png')
+kp1, kp2, matches = orb_bf_match(img1, img2)
+
