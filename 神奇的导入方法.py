@@ -11,5 +11,5 @@ from orb_bf_match import orb_bf_match
 img1 = cv2.imread('image1.png')
 img2 = cv2.imread('image2.png')
 kp1, kp2, matches = orb_bf_match(img1, img2)
-#申请的办法，以后代码全部从云端导入了，本地没代码哈哈哈哈
+#好玩的办法，以后代码全部从云端导入了，本地没代码了?!!!啊哈哈哈
 
