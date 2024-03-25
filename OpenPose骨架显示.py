@@ -4,7 +4,7 @@ from openpose import pyopenpose as op
 
 # 初始化 OpenPose
 params = {
-    "model_folder": "path_to_openpose_models",
+    "model_folder": "/这里填写模块位置",
     "hand": True,
     "face": True
 }
